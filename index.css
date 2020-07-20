@@ -1,0 +1,67 @@
+.header-wrap{
+    background-image: url("./img/header_background.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    /*padding-top: 30px;*/
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+}
+.nav__btn{
+    background-color: #0063DD;
+    /*border-color: #0063DD;*/
+    color: #FFFFFF;
+    padding: 7px 30px ;
+    border-radius: 70%;
+    border: none;
+}
+nav{
+    margin-right: 10px;
+    padding-top: 15px;
+}
+nav a{
+    padding-top: 50px;
+    margin-right: 10px;
+    color: gray;
+}
+nav a:active{
+    color: red;
+}
+
+.app-son{
+    margin-top: 0;
+    background-color: #0063DD;
+    padding: 15px;
+    color: #FFFFFF;
+    border-radius:0 0 15% 15%;
+}
+
+.body__header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.second-text{
+    width: 50%;
+}
+
+.header-buttons {
+    display: flex;
+    margin-top: 15px;
+}
+
+.header-buttons button {
+
+}
