@@ -2,7 +2,7 @@
     background-image: url("./img/header_background.png");
     background-repeat:no-repeat;
     background-size: cover;
-    /*padding-top: 30px;*/
+    /*padding-top: 3    0px;*/
 }
 
 .header {
@@ -41,7 +41,6 @@ nav a:active{
 .body__header{
     margin-top: 30px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -49,19 +48,81 @@ nav a:active{
 
 .header-title {
     margin-bottom: 15px;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
 }
 
 .second-text{
     width: 50%;
+    color: #999999;
 }
 
 .header-buttons {
     display: flex;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
-.header-buttons button {
+.down__btn{
+    margin-right: 30px;
+    color: #FFFFFF;
+    background-color: #0063DD;
+    border:none;
+    border-radius: 20%;
+}
 
+.tril__btn{
+    color: #0063DD;
+    border-color: #0063DD;
+}
+
+.main__first{
+
+}
+.first__card{
+    background-color: #F5FCFD;
+    z-index: 5;
+    padding: 120px 200px 120px 200px;
+}
+
+.icon{
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-right: 30px;
+    /*padding-bottom: 60px;*/
+    height: 300px;
+}
+.cards{
+    display: flex;
+}
+
+.icon2{
+    margin-top: 30px;
+
+}
+
+.img__card{
+    margin: 30px;
+}
+
+.icon__text{
+    margin-bottom: 15px;
+}
+
+.text__card{
+    color: #999999;
+}
+
+.second_card_row{
+    display: flex;
+}
+.second__card{
+    padding-top: 0;
+}
+.text_readmore{
+    color: #0063DD;
+}
+.block4{
+    padding: 50px;
+    background-color:#F5FCFD;
+    text-align: center;
 }
