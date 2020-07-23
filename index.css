@@ -9,6 +9,10 @@
     display: flex;
     justify-content:space-between;
 }
+
+.header img{
+    width: 200px;
+}
 .nav__btn{
     background-color: #0063DD;
     /*border-color: #0063DD;*/
@@ -112,9 +116,42 @@ nav a:active{
     color: #999999;
 }
 
+.second__card {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.easy-messaging{
+    margin-bottom:15px;
+    font-size: 25px;
+}
+.easy-messaging-text{
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #999999;
+}
 .second_card_row{
     display: flex;
+
 }
+.second_card_row img{
+    margin-top: -25px;
+    width: 400px;
+}
+
+.second_card_row .text--block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text1--block2{
+    margin-left: 40px;
+}
+
+.text2--block2{
+    margin-right: 40px;
+}
+
 .second__card{
     padding-top: 0;
 }
@@ -125,4 +162,69 @@ nav a:active{
     padding: 50px;
     background-color:#F5FCFD;
     text-align: center;
+}
+.block5-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.block6{
+    background-color: #F5FCFD;
+}
+.block7{
+    padding: 50px;
+    /*text-align: center;*/
+}
+.block7 .body{
+    display: flex;
+}
+.block7 .title{
+    text-align: center;
+}
+
+.block7 .body_card{
+    display: flex;
+}
+
+.block7 .body_card img{
+    width: 120px;
+    height: 100px;
+}
+
+.block8{
+    background-color: #F5FCFD;
+}
+.block8 .body {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.block9 {
+    background-color: #0063DD;
+    padding: 50px;
+    border-bottom: 1px solid #FFFFFF;
+    text-align: center;
+}
+.subscribe{
+    margin-left: -5px;
+    color: #0063DD;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.block9 input {
+    background-color: #0063DD;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+input::placeholder {
+    color: #FFFFFF;
+}
+footer {
+    background-color: #0063DD;
+    color: #FFFFFF;
+    padding: 30px;
+    font-size: 12px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
 }
