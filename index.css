@@ -9,6 +9,11 @@ button {
     outline: none !important;
 }
 
+a:hover {
+    text-decoration: none !important;
+    color: #0063DD !important;
+}
+
 .header {
     display: flex;
     justify-content:space-between;
@@ -53,6 +58,10 @@ nav a:active{
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+
+.body-header img {
+    width: 75%;
 }
 
 .header-title {
@@ -220,9 +229,78 @@ nav a:active{
     color: #999999;
 }
 
+.block5 {
+    padding: 100px;
+}
+
 .block5-body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.block5-card {
+    box-shadow: 0 0 40px rgba(0,0,0,0.1);
+    background: #ffffff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block5-card .title {
+
+}
+
+.block5-card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block5-card1 .title {
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.block5-card1 .text {
+    color: #999999;
+    margin-bottom: 50px;
+}
+
+.block5-card1 .buttons-wrap {
+    display: flex;
+}
+
+.block5-card1 button {
+    width: 49%;
+    padding: 12px;
+}
+
+.block5-card1 .montnly {
+    background: #0063DD;
+    border-radius: 25px 0 0 25px;
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+}
+
+.block5-card1 .yearly {
+    background: #ffffff;
+    border-radius: 0 25px 25px 0;
+    color: #0063DD;
+    font-weight: 500;
+    border: 2px solid #0063DD;
+}
+
+block5-card2 {
+
+
+}
+
+block5-card3 {
+
 }
 .block6{
     background-color: #F5FCFD;
@@ -330,7 +408,7 @@ nav a:active{
     border: none;
     background-color: #0063DD;
     color: #ffffff;
-    padding: 15px 60px;
+    padding: 13px 60px;
     border-radius: 4px;
 }
 
